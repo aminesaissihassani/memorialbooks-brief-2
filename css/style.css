@@ -1837,6 +1837,9 @@ margin-top: 90px;
     .casa-pic {
         margin: 0 50px;
     }
+    .casa-des {
+        margin-left: 0;
+    }
 }
 
 /* events */
