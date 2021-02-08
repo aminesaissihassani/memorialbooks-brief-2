@@ -1790,8 +1790,7 @@ margin-top: 90px;
 
 /** slider arrow **/
 
-
-
+/* events */
 .casa-pic {
     display: block;
     margin-top: 30px;
@@ -1804,20 +1803,62 @@ margin-top: 90px;
 }
 
 .casa2 {
-    height: 300px;
+    height: 400px;
     position: relative;
 }
 
-.Gallery {
-    background-image: url("../images/Readingroom_Paris.jpg");
-    filter: blur(8px);
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+
 
 .casa-title {
     text-align: center;
     margin-top: 30px;
 }
+
+.casa-lay {
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.casa-des {
+    margin-left: 30px;
+}
+
+@media only screen and (max-width: 992px) {
+    .casa-lay {
+        display: flex;
+        flex-direction: column;
+        padding-top: 30px;
+    }
+    .casa2 {
+        padding-bottom: 30px;
+        height: 300px;
+    }
+    .casa-pic {
+        margin: 0 50px;
+    }
+}
+
+/* events */
+
+/* Gallery */
+
+.Gallery {
+    background-image: url("../images/Readingroom_Paris.jpg");
+    filter: blur(8px);
+    height: 1000px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+.con{
+    position: absolute;
+    top: 50%;
+    left: 43%;
+    right: 42%;
+    z-index: 2;
+}
+/* Gallery */
