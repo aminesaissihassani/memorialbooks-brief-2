@@ -1866,7 +1866,7 @@ margin-top: 90px;
     padding: 5px 10px;
 }
 
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 750px) {
     .harry {
         grid-template-columns: 50% 50%;
         grid-template-rows: 20% 20% 20% 20% 20%;
